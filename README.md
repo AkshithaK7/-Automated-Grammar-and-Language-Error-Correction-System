@@ -39,13 +39,10 @@ This project develops an **Automated Grammar and Language Error Correction Syste
 ### Technology Stack
 
  Tools & Libraries
- Machine Learning Framework:ÊPyTorch
- NLP Libraries:
- Hugging Face Transformers
- Hugging Face Datasets
- NLTK
- API Integration:ÊOpenAI GPT API
- Programming Language:ÊPython
+ - Machine Learning Framework:PyTorch
+ - NLP Libraries: Hugging Face Transformers, Hugging Face Datasets, NLTK
+ - API Integration: OpenAI GPT API
+ - Programming Language: Python
 
 ### System Requirements
 

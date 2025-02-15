@@ -36,31 +36,34 @@ This project develops an **Automated Grammar and Language Error Correction Syste
 
 ## Setup & Usage
 
-### Prerequisites
+### Technology Stack
 
+ Tools & Libraries
+ Machine Learning Framework:ÊPyTorch
+ NLP Libraries:
+ Hugging Face Transformers
+ Hugging Face Datasets
+ NLTK
+ API Integration:ÊOpenAI GPT API
+ Programming Language:ÊPython
+
+### System Requirements
+
+ Hardware
+- CUDA-enabled GPU (recommended)
+- Minimum 16GB RAM
 - Python 3.8+
-- Transformers (Hugging Face)
-- OpenAI API Key
-- PyTorch / TensorFlow
 
-### Installation
+### Dependencies
 
-```bash
-git clone https://github.com/your-username/grammar-correction.git
-cd grammar-correction
-pip install -r requirements.txt
-```
-
-### Running the Model
-
-```python
-from model import GrammarCorrector
-
-corrector = GrammarCorrector(model='T5')
-sentence = "She go to school every day."
-corrected_sentence, feedback = corrector.correct(sentence)
-print(corrected_sentence, feedback)
-```
+- torch
+- transformers
+- datasets
+- nltk
+- matplotlib
+- wordcloud
+- openai
+- pandas
 
 ## Future Enhancements
 
